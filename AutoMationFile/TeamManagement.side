@@ -1,0 +1,807 @@
+{
+  "id": "14fca8f3-d641-47ff-808e-8107529a4699",
+  "version": "2.0",
+  "name": "TeamManagement",
+  "url": "https://localhost:44345",
+  "tests": [{
+    "id": "7d7978fe-e917-4a71-9fcc-29389a97f6b9",
+    "name": "AddPlayer",
+    "commands": [{
+      "id": "7e9ce3c8-e338-4688-91ab-4877499a4f75",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef69d0cf-3949-4016-a5a5-2339d23302c5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1022x653",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15e0f964-54f4-4d35-aec4-6d37aab3bb83",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Player",
+      "targets": [
+        ["linkText=Player", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Player')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Players')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Player')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2992a175-8841-4233-a0ff-943987b7dd8b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create New",
+      "targets": [
+        ["linkText=Create New", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Create New')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Players/Create')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create New')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8374447-0cfc-4568-8f0b-05870429e6ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=LastName",
+      "targets": [
+        ["id=LastName", "id"],
+        ["name=LastName", "name"],
+        ["css=#LastName", "css:finder"],
+        ["xpath=//input[@id='LastName']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b175a08f-f5a8-4214-85bf-dc8b169d4b3b",
+      "comment": "",
+      "command": "type",
+      "target": "id=LastName",
+      "targets": [
+        ["id=LastName", "id"],
+        ["name=LastName", "name"],
+        ["css=#LastName", "css:finder"],
+        ["xpath=//input[@id='LastName']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Husnain"
+    }, {
+      "id": "35f3dfbc-79f7-4868-ac59-222ca4bc802c",
+      "comment": "",
+      "command": "click",
+      "target": "id=FirstName",
+      "targets": [
+        ["id=FirstName", "id"],
+        ["name=FirstName", "name"],
+        ["css=#FirstName", "css:finder"],
+        ["xpath=//input[@id='FirstName']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc5cefa2-4a1f-471c-b2a7-4cc1a6e27833",
+      "comment": "",
+      "command": "type",
+      "target": "id=FirstName",
+      "targets": [
+        ["id=FirstName", "id"],
+        ["name=FirstName", "name"],
+        ["css=#FirstName", "css:finder"],
+        ["xpath=//input[@id='FirstName']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Husnain"
+    }, {
+      "id": "4f7ebc3e-52de-4f23-8a57-327478cfce50",
+      "comment": "",
+      "command": "click",
+      "target": "id=LastName",
+      "targets": [
+        ["id=LastName", "id"],
+        ["name=LastName", "name"],
+        ["css=#LastName", "css:finder"],
+        ["xpath=//input[@id='LastName']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a5f529f-e674-436d-9211-bf0cb3fa3de6",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=LastName",
+      "targets": [
+        ["id=LastName", "id"],
+        ["name=LastName", "name"],
+        ["css=#LastName", "css:finder"],
+        ["xpath=//input[@id='LastName']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fadb9bab-6f60-4ddb-84ce-34887cad52c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=LastName",
+      "targets": [
+        ["id=LastName", "id"],
+        ["name=LastName", "name"],
+        ["css=#LastName", "css:finder"],
+        ["xpath=//input[@id='LastName']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Rafiq"
+    }, {
+      "id": "ab67a6be-653d-41d0-bd98-45221508e442",
+      "comment": "",
+      "command": "click",
+      "target": "id=position",
+      "targets": [
+        ["id=position", "id"],
+        ["name=position", "name"],
+        ["css=#position", "css:finder"],
+        ["xpath=//input[@id='position']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bd40bfb-78bf-43ae-a884-95265cdf4afe",
+      "comment": "",
+      "command": "type",
+      "target": "id=position",
+      "targets": [
+        ["id=position", "id"],
+        ["name=position", "name"],
+        ["css=#position", "css:finder"],
+        ["xpath=//input[@id='position']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Attacker"
+    }, {
+      "id": "75bc241f-5404-4cf9-9fac-14a9ad1ca832",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Create']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "87386371-83e7-454e-94f4-f24eb5704595",
+    "name": "AddTeam",
+    "commands": [{
+      "id": "a8f4b09c-04e6-4b0a-bf30-4751354d3bca",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08300a78-197a-4875-a26d-73fa8b9a0859",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39b41a34-29c3-434d-b2ab-143969480e80",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Team",
+      "targets": [
+        ["linkText=Team", "linkText"],
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Team')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Teams')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Team')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d6d7b53-ecd1-42a6-9ee6-27451000c8a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create New",
+      "targets": [
+        ["linkText=Create New", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Create New')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Teams/Create')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create New')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ca9038e-0ffb-4133-b5ad-22c56df9e097",
+      "comment": "",
+      "command": "click",
+      "target": "id=TeamName",
+      "targets": [
+        ["id=TeamName", "id"],
+        ["name=TeamName", "name"],
+        ["css=#TeamName", "css:finder"],
+        ["xpath=//input[@id='TeamName']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a84d838-1bfc-4654-aa33-a4c58d45d67b",
+      "comment": "",
+      "command": "type",
+      "target": "id=TeamName",
+      "targets": [
+        ["id=TeamName", "id"],
+        ["name=TeamName", "name"],
+        ["css=#TeamName", "css:finder"],
+        ["xpath=//input[@id='TeamName']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Snakes"
+    }, {
+      "id": "91e8ea48-96ce-4dc6-a72b-f592b033c657",
+      "comment": "",
+      "command": "click",
+      "target": "id=City",
+      "targets": [
+        ["id=City", "id"],
+        ["name=City", "name"],
+        ["css=#City", "css:finder"],
+        ["xpath=//input[@id='City']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b12d41a0-95c0-4e41-8836-92407249c9bf",
+      "comment": "",
+      "command": "type",
+      "target": "id=City",
+      "targets": [
+        ["id=City", "id"],
+        ["name=City", "name"],
+        ["css=#City", "css:finder"],
+        ["xpath=//input[@id='City']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Lahore"
+    }, {
+      "id": "52ee37cb-9aec-464d-8d2e-97fd5f6772b9",
+      "comment": "",
+      "command": "click",
+      "target": "id=Province",
+      "targets": [
+        ["id=Province", "id"],
+        ["name=Province", "name"],
+        ["css=#Province", "css:finder"],
+        ["xpath=//input[@id='Province']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e643484e-c7af-46c2-a16d-4d77cd3b249e",
+      "comment": "",
+      "command": "type",
+      "target": "id=Province",
+      "targets": [
+        ["id=Province", "id"],
+        ["name=Province", "name"],
+        ["css=#Province", "css:finder"],
+        ["xpath=//input[@id='Province']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Punjab"
+    }, {
+      "id": "99e4a07d-4917-45e9-9d9c-da29ee30ada0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Create']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "80a254c8-b937-45b1-81e9-5ed7122d41da",
+    "name": "DeleteTeam",
+    "commands": [{
+      "id": "9b9177f3-603b-4f30-b7f0-4d4a36439841",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7d30fea-c26e-466b-a8df-b1c39b1a5b60",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ae84295-adcc-4245-932c-a01242e5b388",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Team",
+      "targets": [
+        ["linkText=Team", "linkText"],
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Team')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Teams')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Team')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93c3a3c6-a432-4275-94f4-e73f83964fc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) a:nth-child(3)",
+      "targets": [
+        ["css=tr:nth-child(4) a:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Delete')])[3]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Teams/Delete/Snakes')]", "xpath:href"],
+        ["xpath=//tr[4]/td[4]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3b0bcd8-7099-4ddb-af7e-cd686a75f6a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Delete']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2b647d6b-58f0-4b40-aca4-6a8c249c6259",
+    "name": "DeletePlayer",
+    "commands": [{
+      "id": "0ff08d70-13aa-4bab-af91-17ac54fbb5ce",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "408fa899-dace-4bc2-8111-daee0da6deef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee332989-ee07-4c01-8103-947b9f6af32b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Player",
+      "targets": [
+        ["linkText=Player", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Player')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Players')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Player')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56997f34-bb69-414c-abd8-3f2ee5202263",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) a:nth-child(3)",
+      "targets": [
+        ["css=tr:nth-child(4) a:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Delete')])[3]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Players/Delete/9')]", "xpath:href"],
+        ["xpath=//tr[4]/td[6]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5594278-884a-4cac-82c7-5e29741d3700",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Delete']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e1a85d11-576f-49c2-957b-54cd25a40990",
+    "name": "ViewTeamDetail",
+    "commands": [{
+      "id": "2d3d7ef0-96a6-40bf-982a-6f4d3c011505",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f3d88c0-35d3-4619-9f89-798bfda61f3c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e170e761-4488-4a3a-b112-ed6865861ec5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Team",
+      "targets": [
+        ["linkText=Team", "linkText"],
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Team')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Teams')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Team')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e9a8f19-3bf9-4153-b341-2342392b7c94",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Details",
+      "targets": [
+        ["linkText=Details", "linkText"],
+        ["css=tr:nth-child(2) a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Details')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Teams/Details/Club%20CA')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20cec309-e209-4784-879a-1c139ad35734",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Back to List",
+      "targets": [
+        ["linkText=Back to List", "linkText"],
+        ["css=p > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Back to List')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/Teams')])[3]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Back to List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ca22671b-2c87-433c-8472-65d6ea4fa262",
+    "name": "viewPlayerDetail",
+    "commands": [{
+      "id": "274862a1-af93-4618-905d-34e774822cd0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de4d5eb5-9d68-4687-b50c-73861c2df6ef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84873100-b9d2-4a87-b5e1-6b22a0f751f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Player",
+      "targets": [
+        ["linkText=Player", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Player')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Players')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Player')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab936fc7-b65e-4644-a71a-e13e484f6f53",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) a:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) a:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Details')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Players/Details/5')]", "xpath:href"],
+        ["xpath=//tr[3]/td[6]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eab032a4-7db1-4ccc-ac0b-5408fd3dae9d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Back to List",
+      "targets": [
+        ["linkText=Back to List", "linkText"],
+        ["css=p > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Back to List')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/Players')])[3]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Back to List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "95f09e19-14a5-485b-874b-fa2606d5fd41",
+    "name": "EditPlayerDetails",
+    "commands": [{
+      "id": "678e6d35-925f-40bd-b95c-8daeaf46bbd0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00c7f1b8-9d53-48ef-88d1-7c09d2eea937",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e044244-ef85-4c88-a96e-30ca3a67579b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Player",
+      "targets": [
+        ["linkText=Player", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Player')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Players')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Player')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e26985b-22b2-4da9-b6f5-6226c3ff939f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Edit",
+      "targets": [
+        ["linkText=Edit", "linkText"],
+        ["css=tr:nth-child(2) a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Edit')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Players/Edit/3')]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e57091f3-6e6b-46f2-afed-a764b9056c45",
+      "comment": "",
+      "command": "click",
+      "target": "id=LastName",
+      "targets": [
+        ["id=LastName", "id"],
+        ["name=LastName", "name"],
+        ["css=#LastName", "css:finder"],
+        ["xpath=//input[@id='LastName']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbee8a17-d0cf-49e5-b6d7-5a61493ac29d",
+      "comment": "",
+      "command": "type",
+      "target": "id=LastName",
+      "targets": [
+        ["id=LastName", "id"],
+        ["name=LastName", "name"],
+        ["css=#LastName", "css:finder"],
+        ["xpath=//input[@id='LastName']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Khan"
+    }, {
+      "id": "2671f261-046c-462f-9598-7af96b321548",
+      "comment": "",
+      "command": "click",
+      "target": "id=position",
+      "targets": [
+        ["id=position", "id"],
+        ["name=position", "name"],
+        ["css=#position", "css:finder"],
+        ["xpath=//input[@id='position']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2a2b78d-932a-4e80-a0ff-f90a096decf5",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=position",
+      "targets": [
+        ["id=position", "id"],
+        ["name=position", "name"],
+        ["css=#position", "css:finder"],
+        ["xpath=//input[@id='position']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb1d35b5-1c52-4243-a7bb-2f7de893bb0f",
+      "comment": "",
+      "command": "type",
+      "target": "id=position",
+      "targets": [
+        ["id=position", "id"],
+        ["name=position", "name"],
+        ["css=#position", "css:finder"],
+        ["xpath=//input[@id='position']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Dafender"
+    }, {
+      "id": "3dfe830f-af99-49d3-a138-978e9eff0d3c",
+      "comment": "",
+      "command": "click",
+      "target": "id=TeamName",
+      "targets": [
+        ["id=TeamName", "id"],
+        ["name=TeamName", "name"],
+        ["css=#TeamName", "css:finder"],
+        ["xpath=//select[@id='TeamName']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Libie\nMoroco\nLahore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a939fbe-2795-4a05-8252-2f04d002829c",
+      "comment": "",
+      "command": "select",
+      "target": "id=TeamName",
+      "targets": [],
+      "value": "label=Libie"
+    }, {
+      "id": "a10a5607-8521-43d4-9d06-96f30eb3c5b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=TeamName",
+      "targets": [
+        ["id=TeamName", "id"],
+        ["name=TeamName", "name"],
+        ["css=#TeamName", "css:finder"],
+        ["xpath=//select[@id='TeamName']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Libie\nMoroco\nLahore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e78d324-68e4-4ec2-a552-09289b0c72ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Save']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0c998a94-4052-4761-b8f9-bae3de9a9be5",
+    "name": "EditTeamDetail",
+    "commands": [{
+      "id": "306919b2-7321-4d17-9afd-80f9f18b59d3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5223f21-1905-4c2b-a8b5-b3c013de9e15",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f9827a7-47cc-46f4-aeab-54ce8e8c599a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Team",
+      "targets": [
+        ["linkText=Team", "linkText"],
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Team')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Teams')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Team')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc102978-dd85-48e4-86a0-c3e55d6ef92b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Edit",
+      "targets": [
+        ["linkText=Edit", "linkText"],
+        ["css=tr:nth-child(2) a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Edit')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Teams/Edit/Club%20CA')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed78ebb3-2213-41a3-8673-546599d48027",
+      "comment": "",
+      "command": "click",
+      "target": "id=Province",
+      "targets": [
+        ["id=Province", "id"],
+        ["name=Province", "name"],
+        ["css=#Province", "css:finder"],
+        ["xpath=//input[@id='Province']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ae6706a-b780-4b78-917f-61ba9815b2e4",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=Province",
+      "targets": [
+        ["id=Province", "id"],
+        ["name=Province", "name"],
+        ["css=#Province", "css:finder"],
+        ["xpath=//input[@id='Province']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e076eb38-6ff1-4b59-87e9-0946edcf096b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Province",
+      "targets": [
+        ["id=Province", "id"],
+        ["name=Province", "name"],
+        ["css=#Province", "css:finder"],
+        ["xpath=//input[@id='Province']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Punjab"
+    }, {
+      "id": "3a26ef15-434f-49d1-9488-74c631e5d0d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Save']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1fa4d557-965f-49c9-b0a1-4c3c880094e8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://localhost:44345/"],
+  "plugins": []
+}
